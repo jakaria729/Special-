@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  background: black;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+.text {
+  text-align: center;
+  margin-top: 40vh;
+  font-size: 45px;
+  color: hotpink;
+  text-shadow: 0 0 20px cyan;
+  animation: glow 1s infinite alternate;
+}
+
+.tap {
+  text-align: center;
+  color: white;
+}
+
+@keyframes glow {
+  from { text-shadow: 0 0 10px red; }
+  to { text-shadow: 0 0 30px yellow; }
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
