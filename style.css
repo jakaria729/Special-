@@ -8,9 +8,9 @@ body {
 .text {
   text-align: center;
   margin-top: 40vh;
-  font-size: 45px;
+  font-size: 50px;
   color: hotpink;
-  text-shadow: 0 0 20px cyan;
+  text-shadow: 0 0 30px cyan;
   animation: glow 1s infinite alternate;
 }
 
@@ -20,8 +20,8 @@ body {
 }
 
 @keyframes glow {
-  from { text-shadow: 0 0 10px red; }
-  to { text-shadow: 0 0 30px yellow; }
+  from { text-shadow: 0 0 15px red; }
+  to { text-shadow: 0 0 35px yellow; }
 }
 
 canvas {
